@@ -5,6 +5,8 @@ body {
   background-color: LightSteelBlue;
   margin: 0;
 }
+
+
 .title {
   color: Indigo;
   text-align: center;
@@ -32,6 +34,10 @@ body {
 #country {
   margin: 0;
 }
+.countries__name:hover,
+.countries__name:focus {
+  cursor: zoom-in;
+}
 .card__title {
   font-size: 35px;
   font-weight: 700;
@@ -44,7 +50,7 @@ body {
 }
 
 .card__text {
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 0;
   margin-bottom: 10px;
 }
