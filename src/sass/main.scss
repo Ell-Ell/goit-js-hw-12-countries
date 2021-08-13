@@ -5,3 +5,36 @@
 
 // Стили для файла с примером HTML-фрагмента
 // @import './example';
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  background-color: LightSteelBlue;
+  margin: 0;
+}
+.title {
+  color: Indigo;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.search-input {
+  font-size: 20px;
+  padding-left: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  height: 50px;
+  width: 300px;
+  border-width: 5px;
+  border-radius: 7px;
+  border-color: #5351ad5c;
+}
+.search-input:hover,
+.search-input:focus {
+  border-color: #6d8ada;
+}
+#country {
+  margin: 0;
+}
