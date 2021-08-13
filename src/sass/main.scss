@@ -1,10 +1,4 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
 
-// Стили для файла с примером HTML-фрагмента
-// @import './example';
 body {
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, sans-serif;
@@ -37,4 +31,42 @@ body {
 }
 #country {
   margin: 0;
+}
+.card__title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.sub-title {
+  font-weight: 700;
+}
+
+.card__text {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card__flag {
+  display: block;
+  max-height: 250px;
+  box-shadow: 0px -1px 19px 4px rgba(0, 0, 0, 0.45);
+}
+
+.languages__item {
+  list-style: disc;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card__wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.card-info__wrap {
+  margin-right: 90px;
 }
