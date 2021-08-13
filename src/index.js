@@ -44,8 +44,9 @@ function renderCountryList(countries) {
     refs.countrysRender.innerHTML = countriesListTpl(countries);
 };
 function onCountriesListClick(e) {
-    if (e.target.nodeName !== 'LI') {
+    if (e.target.nodeName !== 'li') { 
     return;
+    // if (e.target.nodeName !== 'LI')
 }
 
 let countryName = e.target.dataset.name;
